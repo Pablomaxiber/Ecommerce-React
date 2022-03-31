@@ -1,19 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer.js/ItemListContainer';
+
+
 
 function App() {
   return (
-    <div className="fondoBody" >
-      <h1>Raven Golosinas</h1>
-      <header >
+    <header >
+    
+      <div>
+
+       <ItemListContainer greeting = {"Bienvenidos a Candy Raven"}/>
+      </div>
+    
+     
          
-        <NavBar />
+      <NavBar />
         
         <h2>Pablo Bermúdez </h2>
         
-      </header>
-    </div>
+    </header>
+    
   );
 }
 
