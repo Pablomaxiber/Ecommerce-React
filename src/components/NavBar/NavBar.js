@@ -1,5 +1,6 @@
 import  './NavBar.css'
 import CartWidgest from '../CartWidgets/CartWidgest'
+import imagen from '../CartWidgets/carro.png'
 
 const NavBar = () => {
     return(
@@ -13,8 +14,10 @@ const NavBar = () => {
             <button className="botones"> Alfajores </button>
             </div>
             <div>
-            <CartWidgest fotoCarro={<img src= "carro.png"/>}> </CartWidgest>
-            4
+               
+                <CartWidgest fotoCarro= {<img className='carrito' src={imagen}/>}> </CartWidgest>
+                
+
             </div>
             
         </nav>

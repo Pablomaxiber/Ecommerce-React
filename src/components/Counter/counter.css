@@ -1,0 +1,20 @@
+.contador{
+    text-align: center;
+    background-color: rgb(230, 250, 229);
+    height: 250px;
+    width: 300px;
+}
+
+.botonContador{
+ background-color: rgb(250, 181, 236); 
+ height: 35px;
+ width: 70px;
+ 
+}
+
+.numParraf{
+    color: blue;
+    
+}
+
+

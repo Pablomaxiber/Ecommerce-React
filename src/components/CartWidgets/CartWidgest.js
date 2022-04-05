@@ -2,7 +2,10 @@ const CartWidgest= (props) => {
     
     console.log(props.fotoCarro)
     return (
-        <button>{props.fotoCarro}</button> 
+        <button className="botonCarrito">
+            {props.fotoCarro}
+        <p  className='cantProductos'> 0</p>
+        </button> 
     )
 }
 
