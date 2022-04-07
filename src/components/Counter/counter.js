@@ -5,10 +5,14 @@ const Counter= ({initial, stock ,onAdd}) =>{
     const [count, setCount] =useState(initial); 
 
     const decrement= () =>{
-        setCount(count-1)
+        if (count>0){
+            setCount(count-1)
+        }
+       
     }
 
     const increment= () => {
+        if (count < stock)
         setCount(count +1)
     }
     console.log(setCount)
