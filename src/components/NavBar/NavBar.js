@@ -2,11 +2,15 @@ import  './NavBar.css'
 import CartWidgest from '../CartWidgets/CartWidgest'
 import imagen from '../CartWidgets/carro.png'
 
+
+
+
 const NavBar = () => {
     return(
+        
         <nav className="NavBar">
-            
-               
+
+           
            
             <div>
             <button className="botones"> Caramelos </button>
