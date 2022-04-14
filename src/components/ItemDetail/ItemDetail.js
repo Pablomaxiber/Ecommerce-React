@@ -1,14 +1,16 @@
 
 
-import Item from '../Item/Item'
-
-const ItemDetail = ({products}) =>{
+const ItemDetail = ({id, names, precio, detalle, categoria, img}) =>{
     return (
-        <div>
-            {products.map( prod => <Item key={prod.id} {...prod} />)}
-        </div>
+        
+                <h2>
+                    {names}
+                </h2>
+           
+         
     )
 
 }    
 
 export default ItemDetail; 
+

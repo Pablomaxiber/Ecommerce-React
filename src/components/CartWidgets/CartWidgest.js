@@ -1,10 +1,15 @@
+import {useContext} from 'react';
+import { Link } from 'react-router-dom';
+
+
 const CartWidgest= (props) => {
     
     console.log(props.fotoCarro)
+   
     return (
         <button className="botonCarrito">
             {props.fotoCarro}
-        <p  className='cantProductos'> 0</p>
+        <p  className='cantProductos'> {0}</p>
         </button> 
     )
 }

@@ -4,6 +4,9 @@ import { useState } from 'react'
 const Counter= ({initial, stock ,onAdd}) =>{
     const [count, setCount] =useState(initial); 
 
+  
+
+
     const decrement= () =>{
         if (count>0){
             setCount(count-1)
@@ -25,7 +28,7 @@ const Counter= ({initial, stock ,onAdd}) =>{
             <p className='numParraf'> {count} </p>
             <button className='botonContador' onClick={increment}>+</button>
             <div> 
-                <button className='' oneClick={() => onAdd(count)}>Agregar al carrito</button>
+                <button className='botonContador' oneClick={() => onAdd(count)}>Agregar al carrito</button>
             </div>
            
         </div>

@@ -1,8 +1,8 @@
 const products =[
-    {id:1, names:'Alfajor Tofi', precio:'$250', detalle:'algo', img:'https://argensnack.com/wp-content/uploads/ALFAJOR-TOFI-NEGRO-ARGENSNACK-450x450.jpg'},
-    {id:2, names:'Alfajor Tofi', precio:'$250', detalle:'Algo', img:'https://dulcilandia.com.ar/sfe/wp-content/uploads/sites/3/2020/05/04201433.png'},
-    {id:3, names:'Alfajor Tofi', precio:'$250', detalle:'Algo', img:'https://arcorencasa.com/wp-content/uploads/2020/06/1011663.jpg'},
-    {id:4, names:'Alfajor Tofi', precio:'$250', detalle:'Algo', img:'https://arcorencasa.com/wp-content/uploads/2020/06/1011661.jpg'}
+    {id:1, names:'Alfajor Tofi', precio:'$250', detalle:'algo', categoria:'alfajor', img:'https://argensnack.com/wp-content/uploads/ALFAJOR-TOFI-NEGRO-ARGENSNACK-450x450.jpg'},
+    {id:2, names:'Alfajor Tofi', precio:'$250', detalle:'Algo', categoria:'alfajor', img:'https://dulcilandia.com.ar/sfe/wp-content/uploads/sites/3/2020/05/04201433.png'},
+    {id:3, names:'Alfajor Tofi', precio:'$250', detalle:'Algo', categoria:'alfajor', img:'https://arcorencasa.com/wp-content/uploads/2020/06/1011663.jpg'},
+    {id:4, names:'Alfajor Tofi', precio:'$250', detalle:'Algo', categoria:'alfajor', img:'https://arcorencasa.com/wp-content/uploads/2020/06/1011661.jpg'}
 ]
 
 
@@ -14,7 +14,7 @@ export const getProducts = () =>{
     })
 }
 
-{/* 
+ 
 export const getProductsById = (id) => {
     return new Promise (resolve =>{
         setTimeout(() =>{
@@ -22,4 +22,4 @@ export const getProductsById = (id) => {
         }, 2000)
     })
 
-}  */}
+}  
