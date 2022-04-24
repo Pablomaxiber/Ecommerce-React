@@ -2,10 +2,9 @@ import {useContext} from 'react';
 import { Link } from 'react-router-dom';
 
 
+
 const CartWidgest= (props) => {
     
-    console.log(props.fotoCarro)
-   
     return (
         <button className="botonCarrito">
             {props.fotoCarro}

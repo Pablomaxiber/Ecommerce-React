@@ -1,33 +1,39 @@
 
-import { useParams } from 'react-router-dom'
-import {useState, useEffect} from 'react'
-import {getProductsById} from '../../asyncmock'
-import ItemDetail from '../ItemDetail/ItemDetail'
 
+import { useState, useEffect }  from 'react'
+import { getProductsById } from '../../asyncmock'
+import ItemDetail from '../ItemDetail/ItemDetail'
+import { useParams } from 'react-router-dom'
 const ItemDetailContainer = () => {
 
-    const [products, setProducts ]= useState([])
-    const [loading, setLoading] =(true)
+    const [product, setProduct ]= useState()
+    const [loading, setLoading] = useState(true)
 
+    const { productId } = useParams()
     
 
     useEffect(() =>{
-        getProductsById(1).them(item=>{
-            setProducts(item)
+        getProductsById(productId).then(item=>{
+            setProduct(item)
         }).catch(err=>{
             console.log(err)
         }).finally(()=>{
             setLoading(false)
         })
         return(() =>{
-            setProducts()
+            setProduct()
         })
-    }, [])
+    }, [productId])
    
     return(
-        <div >
-          <h1>Detalle</h1>
-
+        <div className="ItemDetailContainer" >
+         { loading ?
+              <h1> Cargando... </h1> :
+              product ?
+              <ItemDetail {...product} /> :
+              <h1> El producto no esxiste</h1>
+               }
+            
         </div>
         
     )
