@@ -18,8 +18,14 @@ const ItemListContainer = (props) => {
         })
     }, [categoryId])
    
+
+    const handleClick = () => {
+        console.log('Hice click en itemlistcontainer')
+    }
+
     return(
-        <div>
+        <div onClick={handleClick}>
+    
             <h1>{props.greeting}</h1>
             <ItemList products={products}/>
 
