@@ -1,0 +1,12 @@
+.botonCarrito{
+    display: inline-flex;
+    align-items: flex-start;
+    background-color: beige;
+    width: 75px;
+    height: 45px;
+    border-radius: 8px;
+}
+.carrito{ 
+    width: 65px;
+    height: 35px;
+}

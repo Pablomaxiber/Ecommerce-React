@@ -1,42 +1,35 @@
 import './counter.css'
 import { useState } from 'react'
-import {  Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
-const Counter= ({initial, stock}) =>{
-    const [count, setCount] =useState(initial); 
-    const [quantity, setQuantity] = useState(0)
-   
+const Counter= ({ stock, initial=1, onAdd}) =>{
+    
+    const [count, setCount] = useState(initial); 
+  
     const decrement= () =>{
         if (count>0){
             setCount(count-1)
+            
         }   
     }
     const increment= () => {
-        if (count < stock)
+        if (count < stock){
+            setCount(count +1)
+        }
        
-        setCount(count +1)
     }
     
-    const handleAdd = (count) =>{
-        
-        console.log(`Agregar al carrito ${count} unidades` )
-        setQuantity(count)
-       
-    }
- 
-
-
     return (
         
         <div className='contador'>
-           <h3>Unidades</h3>
-            <button className='botonContador' onClick={decrement}>-</button>
-            <p className='numParraf'> {count} </p>
+          <div className='contadorIn'>
+           <button className='botonContador' onClick={decrement}>-</button>
+            <span className='numParraf'> {count} </span>
             <button className='botonContador' onClick={increment}>+</button>
+          </div>
+           
             <div> 
-            
-               {quantity > 0 ? <p>Ir al carrito </p> : 
-               <button className='botonContador' onClick={() => handleAdd(count)}>Agregar al carrito</button>}
+          <button class='botonArt' onClick={() => onAdd(count)}>Agregar al carrito</button>
             </div>
            
         </div>

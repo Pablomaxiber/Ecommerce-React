@@ -14,7 +14,7 @@
 }
 
 .fondoBody{
-  background-color: #282c34;
+  background-color: #3869cb;
     align-items: center;
     justify-content: center;
  
@@ -43,4 +43,8 @@
   height: 30px; 
   text-align: center;
   font-size: 20px;
+}
+
+.footer{
+  background-color: rgb(25, 23, 158);
 }

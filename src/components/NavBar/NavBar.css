@@ -23,22 +23,11 @@
    
      }
 
-.botonCarrito{
-    display: inline-flex;
-    align-items: center;
-    background-color: beige;
-    width: 105px;
-    height: 55px;
-    border-radius: 8px;
-}
-.carrito{ 
-    width: 65px;
-    height: 35px;
-}
-.cantProductos{
-    color: rgb(39, 96, 146);
-    font-size: 25px;
-}
+
+     .cantProductos{
+        color: rgb(39, 96, 146);
+        font-size: 25px;
+    }
 
 .nomEcom{
     display: flex;

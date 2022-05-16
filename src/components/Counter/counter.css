@@ -1,15 +1,26 @@
 .contador{
+    display: inline-block;
     text-align: center;
     background-color: rgb(207, 248, 205);
-    height: 250px;
-    width: 300px;
+    height: 50px;
+    width: 130px;
+}
+
+.contadorIn{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .botonContador{
  background-color: rgb(250, 181, 236); 
- height: 35px;
- width: 70px;
+ height: 20px;
+ width: 30px;
  
+}
+.botonCarrito{
+    height: 20px;
+    width: 0px;
 }
 
 .numParraf{

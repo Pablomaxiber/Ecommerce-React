@@ -8,7 +8,7 @@ const Form = () =>{
         console.log(input)
     }
     const handleKeyDown = (e) =>{
-            console.log(e)
+            console.log()
          {/*    if(e.code === 'Space'){
                 e.preventDefault()
             }
