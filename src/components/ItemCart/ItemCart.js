@@ -1,23 +1,20 @@
 import { useContext } from "react"
 import CartContext from "../../context/CartContext"
 
-const ItemCart = ({names, id, img, precio, quantity}) =>{
+const ItemCart = ({names, id, precio, quantity}) =>{
 
     const { removeItem } = useContext(CartContext)
 
     
 
 return (
-    <>
-        <div>{img}</div>
-        
-        {names}  
-        cantidad: {quantity} 
-         Precio por unidad: ${precio}: 
-         Total: ${quantity * precio} 
-         <button onClick={() => removeItem(id)}>Eliminar </button>
+    <div>
+           
+        <p> {names}  Cantidad: {quantity}  Precio por unidad: ${precio}  Total: ${quantity * precio} </p>
+         
+        <button onClick={() => removeItem(id)}>Eliminar </button>
 
-    </>
+    </div>
 )
 }
 

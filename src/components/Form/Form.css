@@ -1,0 +1,109 @@
+input {
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    border: none;
+    font-family: 'BIZ UDPMincho', serif;
+    padding-left: 0.5rem;
+}
+
+label {
+    font-size: 16px;
+    font-family: 'BIZ UDPMincho', serif;
+    margin-bottom: 3rem;
+}
+
+.buyTitle {
+    font-family: 'BIZ UDPMincho', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+.containerForm {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.neonContainer {
+    max-width: 400px;
+    width: 70%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    -webkit-box-shadow:0px 0px 105px 45px rgba(125,21,71,0.9);
+    -moz-box-shadow: 0px 0px 105px 45px rgba(125,21,71,0.9);
+    box-shadow: 0px 0px 105px 45px rgba(125,21,71,0.9);
+}
+
+.redWrong {
+    border: 2px solid rgb(122, 11, 11);
+}
+
+.greenOk {
+    border: 2px solid rgba(0, 128, 0, 0.482);
+}
+
+.title {
+    font-family: 'BIZ UDPMincho', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.code {
+    margin: 3rem 0;
+    font-weight: bold;
+    font-family: 'BIZ UDPMincho', serif;
+    color:black;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    display: flex;
+    flex-direction: row;
+}
+
+.finish {
+    padding: 2px;
+    width: 200px;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    font-family: 'BIZ UDPMincho', serif;
+    margin: 25px;
+    background-color: #540E33;
+    color: white;
+    padding: 1rem;
+    position: relative;
+}
+
+.processingBuy {
+    margin: 200px;
+    font-family: 'BIZ UDPMincho', serif;
+}
+
+.finishContainer {
+    background-image: url(/public/img/winefull.jpg);
+    background-size: cover;
+    background-position: center;
+    padding:135px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

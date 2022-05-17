@@ -1,13 +1,13 @@
 import './counter.css'
 import { useState } from 'react'
-import {Link} from 'react-router-dom'
+
 
 const Counter= ({ stock, initial=1, onAdd}) =>{
     
     const [count, setCount] = useState(initial); 
   
     const decrement= () =>{
-        if (count>0){
+        if (count > 0){
             setCount(count-1)
             
         }   

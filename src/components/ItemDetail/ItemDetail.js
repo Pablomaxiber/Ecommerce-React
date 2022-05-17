@@ -10,7 +10,7 @@ import NotificationContext from '../Notification/Notification'
 const ItemDetail = ({id, names, precio, stock, description, category, img  }) =>{
     const [quantity, setQuantity] = useState(0) 
    
-    const {addItem, getQuantityProduct} = useContext(CartContext)
+    const {addItem, getQuantityProduct } = useContext(CartContext)
     
     const { setNotification } = useContext(NotificationContext)
 
@@ -39,10 +39,11 @@ const ItemDetail = ({id, names, precio, stock, description, category, img  }) =>
         </div>
         
             {
-                stock > 0 ? <Counter initial={getQuantityProduct(id)} stock={stock} onAdd={handleAdd} /> :<span>Sin stock</span>
+               stock > 0 ? <Counter initial={getQuantityProduct(id)} stock={stock} onAdd={handleAdd} /> :<span>Sin stock</span>
+
             }
 
-     
+
        
     </section>
     )
