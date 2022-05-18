@@ -18,7 +18,7 @@ const categories = [
 ]
 
 
-{/*
+
 export const getCategories = () => {
     return new Promise(resolve => {
         setTimeout(() => {
@@ -26,7 +26,7 @@ export const getCategories = () => {
         }, 500)
     })
 }
-*/}
+
 export const getProducts = (categoryId) =>{
     return new Promise (resolve => {
         setTimeout(() => {
@@ -34,6 +34,7 @@ export const getProducts = (categoryId) =>{
         }, 500)
     })
 }
+
 
  
 export const getProductsById = (id) => {

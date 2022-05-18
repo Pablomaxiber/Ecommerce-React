@@ -2,8 +2,8 @@
     display: inline-block;
     text-align: center;
     background-color: rgb(207, 248, 205);
-    height: 50px;
-    width: 130px;
+    height: 60px;
+    width: 140px;
 }
 
 .contadorIn{
@@ -14,7 +14,7 @@
 
 .botonContador{
  background-color: rgb(250, 181, 236); 
- height: 20px;
+ height: 25px;
  width: 30px;
  
 }
@@ -28,4 +28,11 @@
     
 }
 
+.botonArt{
+    color:whitesmoke;
+    background-color: rgb(55, 91, 47);
+   font-size: 12px;
+   height: 30px;
+   width: 110px;
+}
 

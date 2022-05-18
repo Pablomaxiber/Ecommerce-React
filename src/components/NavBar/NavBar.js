@@ -27,7 +27,7 @@ const NavBar = () => {
         <nav className="NavBar">
          
           <div>
-                <Link to='/'><h3 className='nomEcom'>Ecommerce</h3></Link>
+                <Link to='/'><h3 className='nomEcom'>Candy Raven</h3></Link>
             
           </div>
           

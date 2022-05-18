@@ -22,8 +22,19 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(25, 25, 129);
 }
-.botonArt{
+.botonAr{
     color:whitesmoke;
     background-color: rgb(55, 91, 47);
-   
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #0b662c;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-decoration: none;
 }
