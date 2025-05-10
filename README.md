@@ -1,10 +1,12 @@
 # Candy Raven - Pablo Bermudez
 
-## Proyecto Final del Curso de React - CoderHouse
+## Proyecto Ecommerce en React
 
-Proyecto final en el que se programa un Ecommerce, donde el usuario puede recorrer varios productos en la pantalla, pero tambien puede separar por categorias para ordenar los elementos por similitudes. Al ingresar al producto elegido podra acceder a un breve detalle que le indicará nombre, precio, detalle del mismo; aparecerá un contador para  seleccionar la cantidad a comprar. Una vez seleccionados todos los elementos procedera al carrito de compras donde tendra las opciones para borrar elementos que no quiera comprar, otra opcion de borrar todos los productos y dejar el carrito vacio.
-Tambien puede ir viendo el total de la compra y volver a inicio para continuar su pedido. Una vez finalizada la eleccion de los porductos completará un formulario donde cargará sus datos personales para realizar la orden de compra.
-una vez terminado el proceso se emitirá una orden de compra con los datos del usuario, los elementos que compró y el codigo de la compra.
+Proyecto en el que se programa un Ecommerce, donde el usuario puede recorrer varios productos en la pantalla, pero también puede filtrarlos por categorías para ordenar los elementos por similitudes. Al ingresar al producto elegido, podrá acceder a un breve detalle que le indicará el nombre, precio y especificaciones del mismo; además, aparecerá un contador para seleccionar la cantidad a comprar.
+Una vez seleccionados todos los elementos, procederá al carrito de compras, donde tendrá las opciones para borrar elementos que no quiera comprar, así como otra opción para eliminar todos los productos y dejar el carrito vacío.
+También podrá ir viendo el total de la compra y volver al inicio para continuar su pedido. Una vez finalizada la elección de los productos, completará un formulario donde ingresará sus datos personales para realizar la orden de compra.
+Finalmente, se emitirá una orden de compra con los datos del usuario, los elementos adquiridos y el código de la compra.
+
 
 
 # Lenguajes Utilizados 
